@@ -2,13 +2,13 @@ name: Android APK Yig'uvchi
 
 on:
   push:
-    branches: [ "main", "master" ] # main yoki master branchga kod yuklansa ishlaydi
+    branches: [ "main", "master" ]
   pull_request:
     branches: [ "main", "master" ]
 
 jobs:
   build:
-    runs-style: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v4

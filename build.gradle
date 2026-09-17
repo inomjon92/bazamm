@@ -1,0 +1,4 @@
+// GitHub roboti o'ziga kerakli Gradle Wrapper fayllarini yaratib olishi uchun maxsus kod
+task wrapper(type: Wrapper) {
+    gradleVersion = '8.2'
+}
